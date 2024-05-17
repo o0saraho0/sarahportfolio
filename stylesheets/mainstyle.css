@@ -1,0 +1,11 @@
+@import url(footer.css);
+@import url(header.css);
+@import url(main.css);
+@import url(nav.css);
+
+* {
+  background-color: #ffefef;
+}
+
+/* pink & grey: https://colorhunt.co/palette/f6f5f2f0ebe3f3d0d7ffefef
+darkpink & purple: https://colorhunt.co/palette/d20062d6589fd895dac4e4ff */
