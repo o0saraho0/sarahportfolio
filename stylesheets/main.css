@@ -1,0 +1,55 @@
+main {
+  display: grid;
+  grid-template-columns: 0.5fr 5fr;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+}
+
+.main_large_box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  padding: 3px;
+}
+
+h3 {
+  color: grey;
+}
+
+.main_small_box_content {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.main_small_box_content:hover {
+  transform: scale(1.2, 1.2);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.main_small_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}

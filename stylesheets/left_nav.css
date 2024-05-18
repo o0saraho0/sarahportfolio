@@ -1,0 +1,36 @@
+.left_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.contact_info {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+  font-size: 30px;
+  color: rgb(179, 175, 175);
+}
+
+.linkedin {
+  position: sticky;
+  top: 100px;
+}
+
+.github {
+  position: sticky;
+  top: 170px;
+}
+
+.email {
+  position: sticky;
+  top: 240px;
+}

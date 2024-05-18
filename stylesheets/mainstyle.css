@@ -1,10 +1,45 @@
 @import url(footer.css);
 @import url(header.css);
+@import url(left_nav.css);
 @import url(main.css);
 @import url(nav.css);
 
 * {
+  /* border: solid 1px lightblue; */
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
   background-color: #ffefef;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  height: 260px;
+  width: 260px;
+  margin: 10px;
+  border-radius: 25px;
+  opacity: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    margin: 10px 0px 80px 0px;
+  }
+  .main_large_box {
+    justify-content: space-around;
+  }
 }
 
 /* pink & grey: https://colorhunt.co/palette/f6f5f2f0ebe3f3d0d7ffefef

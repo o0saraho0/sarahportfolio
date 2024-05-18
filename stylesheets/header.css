@@ -1,3 +1,10 @@
 h1 {
   color: #d6589f;
+  font-family: "Indie Flower", cursive;
+  rotate: -8deg;
+  margin-left: 55px;
+}
+
+header {
+  margin-bottom: 150px;
 }
