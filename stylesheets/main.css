@@ -21,8 +21,8 @@ h3 {
   padding: 3px;
 }
 
-h3 {
-  color: grey;
+h3 a {
+  color: rgb(179, 175, 175);
 }
 
 .main_small_box_content {
@@ -38,12 +38,16 @@ h3 {
   position: absolute;
   top: 25%;
   left: 25%;
+  box-shadow: 2px 2px 2px rgb(179, 175, 175);
 }
 
 .main_small_box_content:hover {
   transform: scale(1.2, 1.2);
   transition-duration: 1s;
   cursor: pointer;
+  .title a {
+    color: #d6589f;
+  }
 }
 
 .main_small_box {

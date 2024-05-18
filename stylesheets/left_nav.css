@@ -34,3 +34,9 @@
   position: sticky;
   top: 245px;
 }
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+  color: #d6589f;
+}
