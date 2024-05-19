@@ -38,7 +38,6 @@ h3 a {
   position: absolute;
   top: 25%;
   left: 25%;
-  box-shadow: 2px 2px 2px rgb(179, 175, 175);
 }
 
 .main_small_box_content:hover {
