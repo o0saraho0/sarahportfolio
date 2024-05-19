@@ -11,7 +11,9 @@
 }
 
 body {
-  background-color: #ffefef;
+  /* background-color: #ffefef; */
+  background-image: linear-gradient(to right top, #ffefef, #f6cbcb);
+  /* background-image: url(/image/background_pink4.jpg); */
 }
 
 .indie-flower-regular {
